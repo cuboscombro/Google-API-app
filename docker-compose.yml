@@ -1,0 +1,10 @@
+version: '3'
+services:
+  employees_api:
+    build: ./employees_api
+    ports:
+    - "8001:9292"
+  documents_api:
+    build: ./documents_api
+    ports:
+    - "8000:9292"
